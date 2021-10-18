@@ -1,0 +1,14 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://sso2.bioenabletech.com"
+  }
+}, {
+  "relation": ["delegate_permission/common.handle_all_urls", "delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bioenabletech.android.fido2",
+    "sha256_cert_fingerprints": ["94:1F:BD:83:65:D4:0F:59:C5:D7:D9:B9:76:1D:D1:5F:1E:10:FE:0A:F9:70:3D:D7:75:FE:84:D8:72:3F:12:08"]
+  }
+}]
